@@ -39,7 +39,7 @@ declare module "express" {
 // 3. Middleware
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://blog-app-rail.vercel.app/"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: [
       "Content-Type",
